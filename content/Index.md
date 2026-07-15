@@ -3,9 +3,6 @@ title: stereofictions
 ---
 
 
-
-#                         **Stereofictions**
-
 ## Arquitetura Investigativa e Situacionismo Digital
 
 

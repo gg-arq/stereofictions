@@ -1,3 +1,135 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// ============================================
+// Inspirado na referência: tipografia gigante,
+// bold, uppercase + acentos laranja/ciano
+// ============================================
+
+// Títulos gigantes e apertados, estilo "NEW YORK"
+h1,
+.page-title,
+article h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  line-height: 0.88;
+}
+
+article h1 {
+  font-size: clamp(2.5rem, 7vw, 5rem);
+}
+
+h2 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  line-height: 0.95;
+}
+
+h3,
+h4 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+// Links com o laranja como cor principal e sublinhado grosso
+a {
+  color: var(--secondary);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+
+  &:hover {
+    color: var(--tertiary);
+  }
+}
+
+// Header do site (topo) parecido com a barra clara da referência
+.page-header,
+header {
+  background-color: var(--light);
+  border-bottom: 1px solid var(--lightgray);
+
+  .page-title {
+    font-size: 1.25rem;
+    letter-spacing: -0.01em;
+  }
+}
+
+// Bloco de destaque estilo "ticket" laranja
+// use assim num note: <div class="ticket-banner">texto</div>
+.ticket-banner {
+  background-color: var(--secondary);
+  color: var(--light);
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 1.5rem 2rem;
+  border-radius: 0;
+  position: relative;
+  letter-spacing: -0.01em;
+
+  // borda serrilhada (efeito de selo/ticket)
+  --notch-size: 10px;
+  mask-image: radial-gradient(
+      circle at var(--notch-size) var(--notch-size),
+      transparent var(--notch-size),
+      black calc(var(--notch-size) + 0.5px)
+    ),
+    radial-gradient(
+      circle at calc(100% - var(--notch-size)) var(--notch-size),
+      transparent var(--notch-size),
+      black calc(var(--notch-size) + 0.5px)
+    );
+}
+
+// Blocos de destaque tipo hero ciano
+// use assim: <div class="hero-block">texto</div>
+.hero-block {
+  background-color: var(--tertiary);
+  color: var(--dark);
+  padding: 3rem 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.9;
+  font-size: clamp(2rem, 6vw, 4rem);
+  letter-spacing: -0.02em;
+}
+
+// Blockquotes com barra lateral laranja, mais gráficos
+blockquote {
+  border-left: 4px solid var(--secondary);
+  background-color: var(--highlight);
+  padding: 1rem 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+// Código inline com leve destaque ciano
+code {
+  background-color: rgba(79, 200, 233, 0.12);
+  border-radius: 2px;
+}
+
+// Divisores horizontais mais grossos e pretos, tipo grid editorial
+hr {
+  border: none;
+  border-top: 3px solid var(--dark);
+  margin: 2.5rem 0;
+}
+
+// Tabelas com cabeçalho preto/texto claro (contraste forte)
+table thead {
+  background-color: var(--dark);
+  color: var(--light);
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+// Footer com fundo claro/off-white como na referência
+footer {
+  background-color: var(--light);
+  border-top: 1px solid var(--lightgray);
+  font-weight: 500;
+}

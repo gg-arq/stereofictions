@@ -16,30 +16,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Archivo Black
+      body: Inter
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#F0F0EE"
+        lightgray: "#F5EFC9"
+        gray: "#B8B8B0"
+        darkgray: "#2B2B2B"
+        dark: "#0A0A0A"
+        secondary: "#FF5722"
+        tertiary: "#4FC8E9"
+        highlight: rgba(255, 87, 34, 0.15)
+        textHighlight: "#4FC8E988"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
+        light: "#0A0A0A"
+        lightgray: "#1A1A1A"
         gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        darkgray: "#D4D4D4"
+        dark: "#F5EFC9"
+        secondary: "#FF5722"
+        tertiary: "#4FC8E9"
+        highlight: rgba(79, 200, 233, 0.15)
+        textHighlight: "#FF572288"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
