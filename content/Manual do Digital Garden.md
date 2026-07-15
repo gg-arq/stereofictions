@@ -1,7 +1,4 @@
 
-
----
-
 # Estrutura 
 
 ```text
@@ -15,7 +12,7 @@ Projetos/
 Assets/
 ```
 
----
+
 
 # Inbox
 
@@ -23,7 +20,7 @@ A Inbox funciona como um guarda-chuva. É nela que reúno informações ainda se
 
 Ela atua como um buffer entre o ritmo dos meus interesses e o processo de construção do conhecimento. Tudo começa aqui, antes de encontrar seu lugar definitivo no jardim.
 
----
+
 
 # Recortes
 
@@ -31,7 +28,7 @@ Recortes são observações, hipóteses e comentários sobre um determinado cont
 
 É aqui que anoto impressões sobre uma fotografia, um vídeo no YouTube, uma conversa, uma caminhada ou qualquer coisa que tenha despertado minha atenção. Cada recorte é um fragmento de um tema muito maior: um ponto de partida, não um ponto de chegada.
 
----
+
 
 # Conceitos
 
@@ -41,7 +38,7 @@ Nenhum conceito está fechado; todos permanecem em constante construção. Procu
 
 São eles que articulam os recortes, aproximam pessoas e obras e organizam o conhecimento de maneira transversal. Em muitos sentidos, são o coração do jardim.
 
----
+
 
 # Pessoas
 
@@ -51,7 +48,7 @@ Nelas registro minhas impressões sobre suas contribuições, reúno informaçõ
 
 Em alguns casos utilizo informações de fontes de referência, como a Wikipédia; em outros, busco diretamente textos, entrevistas ou materiais produzidos pelo próprio autor.
 
----
+
 
 # Obras
 
@@ -63,7 +60,7 @@ Idealmente, todo recorte nasce a partir de uma obra ou estabelece alguma relaç�
 
 Uma obra nunca substitui a nota da pessoa que a produziu. Pessoas e obras são entidades diferentes e merecem ser tratadas separadamente.
 
----
+
 
 # Artigos e Ensaios
 
@@ -71,7 +68,7 @@ Uma obra nunca substitui a nota da pessoa que a produziu. Pessoas e obras são e
 
 É aqui que surgem os artigos e ensaios: textos mais longos, estruturados e autorais, nos quais procuro elaborar uma posição própria sobre determinado tema.
 
----
+
 
 # Projetos
 
@@ -81,7 +78,7 @@ Entram aqui pesquisas, projetos de arquitetura, experimentos, jogos, sites e qua
 
 Cada projeto funciona como um espaço de convergência entre conceitos, pessoas, obras e ensaios.
 
----
+
 
 # Assets
 
@@ -91,7 +88,7 @@ Imagens, diagramas, PDFs, vídeos e outros recursos ficam organizados aqui.
 
 Não é um espaço destinado ao conhecimento em si, mas aos materiais que dão suporte às notas.
 
----
+
 
 # Regras de ouro
 
